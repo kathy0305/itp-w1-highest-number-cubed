@@ -1,5 +1,10 @@
-"""This is the entry point of the program."""
-
 
 def highest_number_cubed(limit):
-    pass
+    index = 1
+    while (index**3) < limit:
+        index = index +1
+    return index - 1
+    
+ 
+    
+    
